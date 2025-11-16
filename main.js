@@ -6,6 +6,7 @@
  * @returns {string} containing number converted to output system
  */
 export function main(inputNumber, inputNumberSystem, outputNumberSystem) {
+  inputNumber = Number(inputNumber);
   let dtoOut = [];
 
   // input must be a nonnegative integer
